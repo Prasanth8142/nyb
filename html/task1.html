@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Personal Budget Tracker</h1>
+    <a href="#">Add Income/Expense</a><br>
+    <a href="#"> View Budget Summary</a>
+    <h2>Welcome to the Personal Budget Tracker</h2>
+    <p>This tracker helps you manage your monthly income and expenses.You can add new entries and view a detailed summary of your budget.</p>
+    <h3>Add new Income or Expense</h3>
+ <form>
+    <label>Amount:</label>
+    <input type="number"> <br>
+   <label>Category:</label>
+   <select>select the category
+    <option>Select the category</option>
+    <option>Food</option>
+    <option>Transporation</option>
+    <option>Entertainment</option>
+    <option>Salary</option>
+    <option>Savings</option>
+    <option>utilities</option>
+   </select><br>
+    <label>Description:</label>
+    <input type="text"><br>
+   <label>Date:</label>
+   <input type="date"><br>
+   <label>Type: <input type="radio" name="type" required> Income</label>
+   <label>Type: <input type="radio" name="type" required> Expense</label><br>
+ <input type="submit" value="Add entry"> <br>
+ <h3>Budget Summary</h3>
+ <table border="" >
+    <tr>
+        <th>Category</th>
+        <th>Amount</th>
+        <th>Transcation Details</th>
+        <th>status</th>
+        <th>action</th>
+    </tr>
+    <tr>
+        <td>food</td>
+        <td>200</td>
+        <td>Groceries for the week</td>
+        <td>Completed</td>
+        <td><button>Edit</button><button>Delete</button></td>
+    </tr>
+    <tr>
+        <td>Transporation</td>
+        <td>100</td>
+        <td>monthly bus pass</td>
+        <td>Completed</td>
+        <td><button>Edit</button><button>Delete</button></td>
+    </tr>
+    <tr>
+        <td>Entertainment</td>
+        <td>50</td>
+        <td>cinema tickets</td>
+        <td>Completed</td>
+        <td><button>Edit</button><button>Delete</button></td>
+    </tr>
+    <tr>
+        <td>salary</td>
+        <td>3000</td>
+        <td>monthly salary payment</td>
+        <td>Completed</td>
+        <td><button>Edit</button><button>Delete</button></td>
+    </tr>
+    <tr>
+        <td>savings</td>
+        <td>500</td>
+        <td>Emergency fund deposit</td>
+        <td>Completed</td>
+        <td><button>Edit</button><button>Delete</button></td>
+    </tr>
+ </table>
+ <p>Personal Budget tracker -Version 1.0</p>
+ <hr>
+  
+<p>&copy; 2025 Personal Budget Tracker|Designed by Prasanth|All rights reserved.  <br>
+    Contact:support@budgettracker.com
+</p>
+ </form>
+</body>
+</html>
