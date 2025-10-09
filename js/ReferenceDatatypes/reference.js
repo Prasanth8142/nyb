@@ -87,6 +87,8 @@ var m=()=>{
     console.log(a)
     console.log(b)
     console.log(a+b)
+    return "This is a function"
 }
-m()
+console.log(m())
+
 
