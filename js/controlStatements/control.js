@@ -42,3 +42,13 @@ switch(fruit){
                 console.log("not a fruit")
 
 }
+
+var height=25
+switch(height){
+ case 20:
+    console.log("Man Height is 20")
+    case 25:
+        console.log("Man height is 25")
+        case 55:
+            console.log("man Height is 55")
+}
